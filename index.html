@@ -1,0 +1,542 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Read and update content attributes accordingly  -->
+
+  <meta name="description"
+    content="Welcome to my portfolio! As a passionate Data Analyst and Front-end Web Developer, I thrive at the nexus of data exploration and captivating web design. Let's dive into how I craft insightful data narratives and visually stunning digital experiences." />
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Vanessa's Portfolio">
+  <meta itemprop="description"
+    content="Welcome to my portfolio website! I'm a Data Analyst and Front-end Web Developer, blending the magic of data analysis with captivating web experiences.">
+
+  <!-- Reference screenshot of updated site's header in place of content -->
+  <meta itemprop="image" content="assets/images/dash.png">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://vanessajnamutebi.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vanessa's Portfolio">
+  <meta property="og:description"
+    content="Welcome to my portfolio website! I'm a Data Analyst and Front-end Web Developer, blending the magic of data analysis with captivating web experiences.1">
+
+  <!-- Reference screenshot of updated site's header in content -->
+  <meta property="og:image" content="assets/images/dash.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vanessa's Portfolio">
+  <meta name="twitter:description"
+    content="Welcome to my portfolio website! I'm a Data Analyst and Front-end Web Developer, blending the magic of data analysis with captivating web experiences.">
+
+  <!-- Reference screenshot of updated site's header in content -->
+  <meta name="twitter:image" content="assets/images/dash.png">
+
+
+  <!-- Update favicon href attribute with image of yourself -->
+  <link rel="shortcut icon" href="assets/images/favicon-16x16.png" type="image/png" />
+
+  <!-- Preloading fonts for better performance -->
+
+  <link rel="preload" href="assets/fonts/Roboto/Roboto-BlackItalic.ttf" as="font" type="font/ttf" crossorigin />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+  <!-- Your name here -->
+  <title>Namutebi Vanessa's Portfolio</title>
+</head>
+
+<body>
+
+  <script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+  </script>
+
+  <header class="header">
+
+    <div class="menu-btn-container">
+      <div class="container">
+        <button type="button" class="menu-btn">menu</button>
+      </div>
+    </div>
+
+    <nav class="nav hidden">
+      <ol class="nav-items">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#work">Projects</a></li>
+        <li class="nav-item"><a href="#blog">See Blog</a></li>
+        <li class="nav-item"><a href="#skills">My Skills</a></li>
+        <li class="nav-item">
+          <a href="#contact" data-focused="last-focused">Contact</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="header-textbox">
+        <!-- Replace with your name and job title -->
+        <h1 class="h1">
+          <span>Hello there, I'm Vanessa Namutebi</span>
+          <span>Data Analyst</span>
+        </h1>
+
+        <!-- Add a small introductory paragraph about yourself -->
+        <div class="container">
+          <p class="header-text">
+
+          <p class="ahhhh">🌟 I’m a dedicated and goal oriented individual . I am eager to
+            harness my technical expertise,<br>and fervor
+            for technology to make a meaningful contribution to the well being of the world at large. <br> I find peace
+            in
+            nature,🌳 I love exploring the outdoors.</p>
+          <div class="hope">
+            <!--Added a class to paragraph below... Incase of any issues edit below.-->
+            <p class="join-me-text">Join me as we delve into the realm of data-driven solutions, where every
+              dataset
+              is <br>a puzzle waiting to
+              be
+              solved, and
+              every insight is a stepping stone towards success.</p>
+
+
+            <div class="header-btns">
+              <a href="#contact" class="btn btn-cta">Hire me</a>
+              <a href="#work" class="btn btn-secondary">See my work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <section class="work">
+      <div class="container">
+        <h2 class="h2" id="work">Projects </h2>
+
+        <div class="work-boxes">
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Bike Buyers analysis🏍🌟</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                The goal of this project was to analyze data related to bike buyers, including demographic information
+                such as age,
+                region, marital status, occupation and whether they made a purchase.
+              </p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <li>Excel</li>
+              </ol>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/vanessa-namutebi/bike-buyers-analysis" target="_blank" rel="noopener"
+                  class="link">Delve into this
+                  project</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/vanessa-namutebi/bike-buyers-analysis" target="_blank" rel="noopener"
+                  title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <img loading="lazy" src="assets\images\work\bike.png" alt="agency elevation" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">SmartBin Application</h3>
+              <!-- Add small description of your project  -->
+
+              <p class="work-text">The application aimed to enhance waste collection efficiency and customer experience
+                by providing a user-friendly
+                platform for customers to schedule and request trash pickup services.</p>
+              <ol class="work-technologies">
+                <li>JavaScript(React Native)</li>
+                <li>Java</li>
+                <li>Ruby</li>
+                <li>Node js</li>
+                <li>MongoDB</li>
+              </ol>
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/vanessa-namutebi/toyiwa" target="_blank" rel="noopener" class="link">Delve
+                  into this
+                  project</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/vanessa-namutebi/toyiwa" target="_blank" rel="noopener" title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/work/finalmerg.png" alt="portfolio template" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Covid-19 Data Analysis</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                The SQL project focused on analyzing COVID-19 data related to deaths, vaccinations, and population
+                statistics.
+              </p>
+              <ol class="work-technologies">
+                <li>SQL</li>
+                <li>PowerBI</li>
+
+              </ol>
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/vanessa-namutebi/COVID-19-Data-Analysis-with-SQL" target="_blank"
+                  rel="noopener" class="link">Delve into this project</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/vanessa-namutebi/COVID-19-Data-Analysis-with-SQL" target="_blank"
+                  rel="noopener" title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/work/covid.png" alt="contribute dev" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+    <section class="article">
+      <div class="container">
+        <h2 class="h2" id="blog">My Articles</h2>
+        <div class="article-boxes">
+          <article class="article-box featured-article">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h3">
+                  From Confusion to Clarity: My IT Adventure🚀💻
+                </h3>
+                <p class="article-text">
+                  Note: I wanted to share my journey in the IT field to inspire others who might be facing similar
+                  challenges or uncertainties.
+                  By sharing my experiences, I hope to encourage more people, especially women, to explore the
+                  opportunities in IT. It’s a
+                  field full of potential, continuous learning, and exciting advancements.
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://dev.to/namutebi_vanessa" class="link" target="_blank" rel="noopener">Continue
+                  reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" />
+                  4
+                </span>
+              </div>
+            </div>
+            <picture class="article-illustration">
+              <img src="assets/images/confusion.jpg" alt="MacBook Pro" loading="lazy" />
+            </picture>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">Is AI Worth Learning in 2024?</h3>
+                <p class="article-text">
+                  In this article , I wrote about what AI means , its prons and cons plus its worth in this era. AI is
+                  Godly and we ought to embrace it .
+
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://dev.to/namutebi_vanessa" class="link" target="_blank" rel="noopener">Continue
+                  reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
+                  47
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">
+                  Learn JavaScript in 2024: 10 Reasons to Start Now
+                </h3>
+                <p class="article-text">
+                  This post navigates through the persistent value and versatility of JavaScript, advocating why
+                  learning this language in 2024 is imperative for both personal and professional development.
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://medium.com/@namutebivanessa18/learn-javascript-in-2024-10-reasons-to-start-now-7f9c45935f12"
+                  class="link" target="_blank" rel="noopener">Continue reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
+                  1
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">How to Learn Data Analysis in 2024 📊</h3>
+                <div class="article-text">
+                  In my article I shared some tips and
+                  tricks to help one learn Data Analysis. In this article I will be covering Data Analysis tips and
+                  tricks.
+                </div>
+              </div>
+              <div class="article-info">
+                <a href="https://dev.to/namutebi_vanessa" class="link" target="_blank" rel="noopener">Continue
+                  reading</a>
+                <span class="reaction-count">
+                  <img loading="lazy" src="./assets/images/heart-outline.svg" alt="heart" />
+                  3
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+    <section class="skills">
+      <div class="container">
+        <h2 class="h2" id="skills">My Toolkit</h2>
+        <div class="skills-imgs">
+          <img src="assets/images/skills/file.webp" alt="Excel" class="skills-img" loading="lazy" title="Excel">
+          <img src="assets/images/skills/ppp.webp" alt="PowerBI" class="skills-img" loading="lazy" title="PowerBI">
+          <img src="assets/images/skills/tbl.png" alt="Tableau" class="skills-img" loading="lazy" title="Tableau">
+          <img src="assets/images/skills/3.png" alt="SQL" class="skills-img" loading="lazy" title="SQL">
+          <img src="assets/images/skills/1.png" alt="Python" class="skills-img" loading="lazy" title="Python">
+          <img src="assets/images/skills/rstudio.webp" alt="R studio" class="skills-img" loading="lazy" title="Rstudio">
+          <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+          <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+          <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+    <section>
+      <h2 class="h2">Testimonials</h2>
+      <div class="container">
+        <ol class="testimonials">
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Working with Vanessa was a great experience. Her drive for clean aesthetics and his open communication
+              style
+              helped us collaborate closely on the solution.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/file(1).png" alt="Rich Harris" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Okello eric</h3>
+                <p class="testimonial-author-job">Engineer @ J Van Vlist Holding B.V</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Vanessa's dual expertise as a data analyst and frontend developer shines through in her seamless
+              integration of
+              data-driven insights with visually compelling interfaces.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/file(2).png" alt="Andrew Mead" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">
+                  Nabakka Brenda
+                </h3>
+                <p class="testimonial-author-job">Accountant @NCBS
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+
+              Talented lady, experienced with various
+              softwares and can make any project you are working on look good. He is
+              easy to work with and is a self starter. I would work with Vanessa
+              again.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/ronald-fotor-bg-remover-20240513151942.png" alt="Brian Hirsh"
+                loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Atuhaire Ronald</h3>
+                <p class="testimonial-author-job">Senior Accountant @NCBS</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Vanessa consistently delivers exceptional work, seamlessly blending creativity with meticulous attention
+              to detail to
+              achieve outstanding results.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/ovliver@ncbs-io-acc-fotor-bg-remover-2024051315214.png"
+                alt="Adam Argalye" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Ajambo Oliva</h3>
+                <p class="testimonial-author-job">Assistant Accountant @Ripples</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Namutebi is one of my favourite people to work with. She's my go-to colleague when trouble shooting any
+              new
+              technique or technology because she understands how to tackle unknown problems with gumption.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/pele@ncbs-io-it-1-fotor-bg-remover-20240513152247.png" alt="Val Head"
+                loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Pele Megas</h3>
+                <p class="testimonial-author-job">Graphics Designer </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Vanessa's dedication to excellence and innovative problem-solving approach make her an invaluable asset to
+              any team,
+              consistently exceeding expectations and delivering top-notch results.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/angella.png" alt="Gary Simon" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Kyoshabire Angella</h3>
+                <p class="testimonial-author-job">Accountant @Oakland</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="h2" id="contact">Send Message</h2>
+        <div class="contact-content">
+          <div class="contact-textbox">
+            <!-- Please comment this component if you're not available for hire -->
+            <strong href="#" class="hire-alert">
+              <span class="indicator"></span>
+              Available for hire
+            </strong>
+            <p class="contact-text">
+              I thrive in the world of data and business analysis, turning numbers into narratives that drive smart
+              decisions. With a
+              knack for uncovering meaningful insights, I create stories that help businesses thrive.
+            </p>
+            <p class="contact-text">
+              In addition to my role as a data and business analyst, I dive into frontend development during my
+              downtime, crafting
+              sleek interfaces and seamless user experiences. It's my way of blending analytical thinking with creative
+              design,
+              keeping things fresh and exciting.
+            </p>
+            <!-- Replace src with your signatures and name -->
+            <!-- <img src="assets/images/sign1.png" alt="Naamutebi Vanessa" class="signatures" loading="lazy" /> -->
+          </div>
+          <form action="/" method="POST" data-netlify="true" class="contact-form">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required inputmode="email" />
+            </div>
+            <div class="form-field">
+              <label for="message">How can I help you?</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta">Send</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Update href and src attributes -->
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="GitHub" href="https://github.com/vanessa-namutebi" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" /></a>
+            </li>
+
+            <li class="footer-link">
+              <a title="Linkedin" href="https://www.linkedin.com/in/namutebi-vanessa-813665306/" target="_blank"
+                rel="noopener"><img loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Twitter" href="https://twitter.com/VanessaNamutebi" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/twitter.svg" alt="Twitter" /></a>
+            </li>
+          </ol>
+        </nav>
+        <p class="footer-text">
+          &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener"
+            href="https://github.com/vanessa-namutebi">Vanessa</a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" />
+        </label>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
