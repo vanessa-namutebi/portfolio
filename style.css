@@ -423,20 +423,25 @@ main {
 .nav {
   min-block-size: 100vh;
   position: fixed;
-  width: 30%;
+  width: 30%; /* desktop width */
   background-color: #37353E;
-
   transition: 450ms var(--easing);
   z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .nav-items {
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  transform: translateY(-50%) translateX(-15%);
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: var(--gutter-x-small); /* spacing between items */
 }
+
 
 .nav-item:not(:last-child) {
   margin-block-end: var(--gutter-x-small);
@@ -464,6 +469,26 @@ main {
 .nav-item a:focus::after {
   transform: scale(1);
 }
+
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    height: auto;
+    min-block-size: auto;
+    position: relative; /* so it scrolls with page */
+  }
+
+  .nav-items {
+    flex-direction: row;
+    justify-content: space-around;
+    transform: none; /* remove translateY/translateX */
+  }
+
+  .nav-item a {
+    font-size: var(--h3); /* smaller font for mobile */
+  }
+}
+
 
 /* --------------------------------- */
 /* ----- Header -----*/
